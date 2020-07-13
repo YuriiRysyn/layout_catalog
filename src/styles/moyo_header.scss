@@ -40,10 +40,6 @@ $headerHeight: 60px;
     transition: color 1s;
   }
 
-  &__link:visited {
-    color: black;
-  }
-
   .nav__link--is-active {
     color: #00acdc;
     position: relative;

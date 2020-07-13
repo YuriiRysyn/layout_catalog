@@ -120,6 +120,10 @@ $sumforDistanceBeteewnCards: 144px;
       background: $white-color;
       color: $blue-color;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 
 }
