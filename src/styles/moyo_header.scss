@@ -37,6 +37,7 @@ $headerHeight: 60px;
     line-height: $headerHeight;
     text-decoration: none;
     color: black;
+    transition: color 1s;
   }
 
   &__link:visited {

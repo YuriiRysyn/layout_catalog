@@ -35,6 +35,15 @@ $sumforDistanceBeteewnCards: 144px;
     height: 134px;
     width: 160px;
     margin: 30px 20px 0;
+    box-sizing: border-box;
+    transition: transform 1s;
+  }
+
+  &__imac:hover {
+    transform: translateY(-15px) scale(1.25);
+    cursor: pointer;
+    border: 3px solid #f3f3f3;
+    border-radius: 5px;
   }
 
   &__description {
@@ -106,6 +115,7 @@ $sumforDistanceBeteewnCards: 144px;
     color: $white-color;
     border-radius: 5px;
     border: 1px solid $blue-color;
+    transition: all 1s ;
 
     &:hover {
       background: $white-color;
