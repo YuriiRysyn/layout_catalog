@@ -27,21 +27,19 @@ $sumforDistanceBeteewnCards: 144px;
   &__image {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    margin: 18px 20px 0;
+    padding: 12px;
+    transition: transform 0.5s linear, padding 0.5s linear;
   }
 
   &__imac {
     height: 134px;
     width: 160px;
-    margin: 30px 20px 0;
-    box-sizing: border-box;
-    transition: transform 0.5s linear, padding 0.5s linear,;
+    margin: 0;
   }
 
-  &__imac:hover {
-    transform: translateY(-15px) scale(1.2);
-    padding: 10px;
+  &__image:hover {
+    transform: scale(1.22);
     cursor: pointer;
     outline: 3px solid #f3f3f3;
   }
@@ -50,7 +48,7 @@ $sumforDistanceBeteewnCards: 144px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 44px 15px 0 14px;
+    margin: 24px 15px 0 14px;
     height: 31px;
     width: 170px;
     font-weight: 500;
