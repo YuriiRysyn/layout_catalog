@@ -115,11 +115,12 @@ $sumforDistanceBeteewnCards: 144px;
     color: $white-color;
     border-radius: 5px;
     border: 1px solid $blue-color;
-    transition: all 1s ;
+    transition: color 1s, background 1s;
 
     &:hover {
       background: $white-color;
       color: $blue-color;
+      cursor: pointer;
     }
 
     &:focus {
