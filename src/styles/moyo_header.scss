@@ -4,7 +4,7 @@ $headerHeight: 60px;
   display: flex;
   justify-content: space-between;
   height: $headerHeight;
-  padding-right: 50px;
+  padding-right: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
   &__logo {
@@ -19,10 +19,17 @@ $headerHeight: 60px;
 
 .nav {
   display: flex;
+  padding-right: 40px;
+  &__list {
+    display: flex;
+    align-items: center;
+  }
 
   &__box {
     display: flex;
+    align-items: flex-end;
     margin-right: 20px;
+
   }
 
   &__box:last-child {
