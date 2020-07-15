@@ -17,11 +17,6 @@ $sumforDistanceBeteewnCards: 144px;
   border-radius: 5px;
   padding: 0;
 
-  &:nth-child(4),
-  &:nth-child(8) {
-    margin-right: 0;
-  }
-
   &__image {
     display: flex;
     justify-content: center;
@@ -103,5 +98,4 @@ $sumforDistanceBeteewnCards: 144px;
       color: $blue-color;
     }
   }
-
 }
